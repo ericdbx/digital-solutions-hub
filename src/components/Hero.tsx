@@ -43,11 +43,6 @@ const Hero = () => {
       <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
 
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glow-border bg-secondary/50 mb-8">
-          <Zap className="w-4 h-4 text-primary" />
-          <span className="text-sm text-muted-foreground">Automação & Desenvolvimento</span>
-        </div>
-
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
           Transforme sua empresa com{" "}
           <span className="text-gradient glow-text">automação inteligente</span>
