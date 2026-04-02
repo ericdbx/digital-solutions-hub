@@ -14,9 +14,10 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
+          <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Home</a>
           <a href="#servicos" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Serviços</a>
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Como Funciona</a>
-          <Button size="sm">Contato</Button>
+          <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Como Funciona</a>
+          <a href="#contato"><Button size="sm">Contato</Button></a>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
@@ -26,9 +27,10 @@ const Navbar = () => {
 
       {open && (
         <div className="md:hidden bg-background/95 backdrop-blur-lg border-b border-border px-4 py-4 flex flex-col gap-4">
+          <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setOpen(false)}>Home</a>
           <a href="#servicos" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setOpen(false)}>Serviços</a>
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setOpen(false)}>Como Funciona</a>
-          <Button size="sm" className="w-fit">Contato</Button>
+          <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setOpen(false)}>Como Funciona</a>
+          <a href="#contato" onClick={() => setOpen(false)}><Button size="sm" className="w-fit">Contato</Button></a>
         </div>
       )}
     </nav>
