@@ -14,9 +14,10 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
+          <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Home</a>
           <a href="#servicos" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Serviços</a>
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Como Funciona</a>
-          <Button size="sm">Contato</Button>
+          <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Como Funciona</a>
+          <a href="#contato"><Button size="sm">Contato</Button></a>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
