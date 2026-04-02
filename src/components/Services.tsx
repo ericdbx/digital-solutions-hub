@@ -1,4 +1,4 @@
-import { Code2, Workflow, Bot, Send, MessageSquare, Smartphone } from "lucide-react";
+import { Code2, Workflow, Bot, Send, Smartphone, Plug } from "lucide-react";
 
 const services = [
   {
@@ -13,23 +13,26 @@ const services = [
   },
   {
     icon: Bot,
-    title: "Bots para Instagram",
-    description: "Automatize respostas, engajamento e captação de leads direto no Instagram com bots inteligentes.",
-  },
-  {
-    icon: MessageSquare,
-    title: "Bots para Telegram",
-    description: "Chatbots personalizados para atendimento, notificações e gestão de comunidades no Telegram.",
-  },
-  {
-    icon: Smartphone,
-    title: "Bots para WhatsApp",
-    description: "Atendimento automatizado 24/7, funis de venda e integração com seus sistemas via WhatsApp.",
+    title: "Bots Inteligentes",
+    description: "Bots inteligentes para Instagram, WhatsApp, Telegram que atendem clientes 24/7.",
+    tags: ["Instagram DM Bot", "WhatsApp Business", "Telegram Bot", "Respostas Automáticas"],
   },
   {
     icon: Send,
     title: "Disparo em Massa WhatsApp",
     description: "Envio de mensagens em massa segmentadas, campanhas de marketing e notificações para sua base de contatos.",
+  },
+  {
+    icon: Smartphone,
+    title: "Aplicativos Mobile",
+    description: "Desenvolvimento de apps nativos e híbridos para iOS e Android.",
+    tags: ["React Native", "Flutter", "Apps Nativos", "Publicação na Store"],
+  },
+  {
+    icon: Plug,
+    title: "Integrações & APIs",
+    description: "Conecte suas ferramentas e sistemas através de integrações personalizadas.",
+    tags: ["APIs Customizadas", "Integrações CRM", "Sincronização de Dados", "Webhooks"],
   },
 ];
 
@@ -57,6 +60,18 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{service.description}</p>
+              {service.tags && (
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {service.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-xs px-2.5 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
