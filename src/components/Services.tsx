@@ -23,6 +23,7 @@ const services = [
     icon: Send,
     title: "Disparo em Massa WhatsApp",
     description: "Envio de mensagens em massa segmentadas, campanhas de marketing e notificações para sua base de contatos.",
+    tags: ["Envio Personalizado", "Lista de Contatos", "Relatórios", "Anti-Ban"],
   },
   {
     icon: Smartphone,
