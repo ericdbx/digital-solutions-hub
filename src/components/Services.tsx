@@ -5,11 +5,13 @@ const services = [
     icon: Code2,
     title: "Desenvolvimento de Software",
     description: "Aplicações web e mobile personalizadas, APIs robustas e sistemas completos para o seu negócio.",
+    tags: ["React & Next.js", "Node.js & Python", "Banco de Dados", "APIs REST"],
   },
   {
     icon: Workflow,
     title: "Automação com n8n",
     description: "Fluxos automatizados que conectam seus sistemas, eliminam tarefas repetitivas e aumentam a produtividade.",
+    tags: ["Integração de Sistemas", "Automação de Processos", "Webhooks", "Scheduled Tasks"],
   },
   {
     icon: Bot,
@@ -21,6 +23,7 @@ const services = [
     icon: Send,
     title: "Disparo em Massa WhatsApp",
     description: "Envio de mensagens em massa segmentadas, campanhas de marketing e notificações para sua base de contatos.",
+    tags: ["Envio Personalizado", "Lista de Contatos", "Relatórios", "Anti-Ban"],
   },
   {
     icon: Smartphone,
