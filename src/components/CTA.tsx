@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-24 px-4">
+    <section id="contato" className="py-24 px-4">
       <div className="max-w-3xl mx-auto text-center">
         <div className="p-8 md:p-12 rounded-2xl glow-border glow-box bg-card relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsl(185_80%_50%_/_0.06)_0%,_transparent_60%)]" />
