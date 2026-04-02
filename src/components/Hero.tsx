@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Background carousel */}
       {images.map((img, i) => (
         <img
