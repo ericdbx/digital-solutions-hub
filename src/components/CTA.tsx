@@ -15,10 +15,12 @@ const CTA = () => {
             <p className="text-muted-foreground text-lg mb-8 max-w-lg mx-auto">
               Cada negócio tem suas particularidades. Vamos conversar sobre suas necessidades e criar uma solução sob medida para você.
             </p>
-            <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-5 md:py-6 font-semibold group w-full sm:w-auto">
-              Conversar no WhatsApp
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <a href="https://wa.me/5511982377723?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-5 md:py-6 font-semibold group w-full sm:w-auto">
+                Conversar no WhatsApp
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>
