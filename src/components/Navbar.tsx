@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 font-bold text-xl">
           <Zap className="w-6 h-6 text-primary" />
-          <span className="text-gradient">AutoDev</span>
+          <span className="text-gradient">Ericdbx</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
